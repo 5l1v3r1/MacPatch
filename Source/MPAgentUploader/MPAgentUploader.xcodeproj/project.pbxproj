@@ -23,7 +23,8 @@
 		8F4911C11DFC6E310018CA70 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4911BE1DFC6E310018CA70 /* PreferencesViewController.swift */; };
 		8F4911C21DFC6E310018CA70 /* PreferencesGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4911BF1DFC6E310018CA70 /* PreferencesGeneralViewController.swift */; };
 		8F4911C41DFDEB4E0018CA70 /* FileUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4911C31DFDEB4E0018CA70 /* FileUploader.swift */; };
-		8F6162782395E48900E9D477 /* SwiftShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6162772395E48900E9D477 /* SwiftShell.framework */; };
+		8FD5E18623AD574D00A47F7C /* SwiftShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD5E18423AD573C00A47F7C /* SwiftShell.framework */; };
+		8FD5E18723AD574D00A47F7C /* SwiftShell.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8FD5E18423AD573C00A47F7C /* SwiftShell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8FEEC2B31DFF5FB8001133F7 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEEC2B21DFF5FB8001133F7 /* HeaderView.swift */; };
 		8FF253E51FACDF0D006B0491 /* LogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF253E41FACDF0D006B0491 /* LogKit.framework */; };
 		8FF253E61FACDF12006B0491 /* LogKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8FF253E41FACDF0D006B0491 /* LogKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -36,6 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				8FD5E18723AD574D00A47F7C /* SwiftShell.framework in CopyFiles */,
 				8F2BC9E41DF88616009BA318 /* Alamofire.framework in CopyFiles */,
 				8FF253E61FACDF12006B0491 /* LogKit.framework in CopyFiles */,
 			);
@@ -63,7 +65,7 @@
 		8F4911BE1DFC6E310018CA70 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesViewController.swift; path = Preferences/PreferencesViewController.swift; sourceTree = "<group>"; };
 		8F4911BF1DFC6E310018CA70 /* PreferencesGeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesGeneralViewController.swift; path = Preferences/PreferencesGeneralViewController.swift; sourceTree = "<group>"; };
 		8F4911C31DFDEB4E0018CA70 /* FileUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUploader.swift; sourceTree = "<group>"; };
-		8F6162772395E48900E9D477 /* SwiftShell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftShell.framework; path = MPAgentUploader/Frameworks/SwiftShell.framework; sourceTree = "<group>"; };
+		8FD5E18423AD573C00A47F7C /* SwiftShell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftShell.framework; path = MPAgentUploader/Frameworks/SwiftShell.framework; sourceTree = "<group>"; };
 		8FEEC2B21DFF5FB8001133F7 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		8FF253E41FACDF0D006B0491 /* LogKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LogKit.framework; path = MPAgentUploader/Frameworks/LogKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6162782395E48900E9D477 /* SwiftShell.framework in Frameworks */,
+				8FD5E18623AD574D00A47F7C /* SwiftShell.framework in Frameworks */,
 				8FF253E51FACDF0D006B0491 /* LogKit.framework in Frameworks */,
 				8F2BC9E21DF884EC009BA318 /* Alamofire.framework in Frameworks */,
 			);
@@ -120,7 +122,7 @@
 		8F2BC9E01DF884EC009BA318 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8F6162772395E48900E9D477 /* SwiftShell.framework */,
+				8FD5E18423AD573C00A47F7C /* SwiftShell.framework */,
 				8FF253E41FACDF0D006B0491 /* LogKit.framework */,
 				8F2BC9E11DF884EC009BA318 /* Alamofire.framework */,
 			);
