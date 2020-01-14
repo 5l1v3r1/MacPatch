@@ -608,6 +608,7 @@ if $USEMACOS; then
 	source ${MPSERVERBASE}/env/server/bin/activate
     ${MPSERVERBASE}/env/server/bin/pip3 -q install --upgrade pip --no-cache-dir
     ${MPSERVERBASE}/env/server/bin/pip3 -q install pycrypto --no-cache-dir
+    ${MPSERVERBASE}/env/server/bin/pip3 -q install simplejson --no-cache-dir--no-cache-dir
 	${MPSERVERBASE}/env/server/bin/pip3 -q install requests --no-cache-dir
 	${MPSERVERBASE}/env/server/bin/pip3 -q install mysql-connector-python --no-cache-dir
 	
@@ -655,6 +656,7 @@ else
     source ${MPSERVERBASE}/env/server/bin/activate
     pip -q install --upgrade pip --no-cache-dir
     pip -q install pycrypto --no-cache-dir
+    pip -q install simplejson --no-cache-dir
 	pip -q install python-crontab --no-cache-dir
 	pip -q install requests --no-cache-dir
 	pip -q install mysql-connector-python --no-cache-dir
