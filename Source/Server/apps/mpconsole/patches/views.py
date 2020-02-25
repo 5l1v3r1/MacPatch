@@ -247,7 +247,10 @@ def customList():
 			_row[col] = _dict[col]
 
 		if _row['pkg_useS3'] == 1:
-			_row['pkg_url'] = _aws.getS3UrlForPatch(_row['puuid'])
+			if current_app.config.get('USE_AWS_S3'):
+					_row['pkg_url'] = _aws.getS3UrlForPatch(_row['puuid'])
+			else:
+					_row['pkg_url'] = ""
 
 		_results.append(_row)
 
